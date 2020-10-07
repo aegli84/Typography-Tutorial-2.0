@@ -1,0 +1,253 @@
+body {
+    background-color: #495057;
+    margin: auto;
+    width: 80vw;
+}
+@font-face {
+    font-family: "Egli font";
+    src: url("./Assets/ArchitectsDaughter-Regular.ttf")
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 72px;
+    text-shadow: 0  15px 7px black;
+    color: #c98818;
+}
+
+section {
+    border-bottom: 1px solid  #fca311;
+
+}
+
+article {
+    margin-bottom: 50px;
+    
+}
+
+article > div {
+    display: inline-block;
+    width: 48%;
+    color: #c0ccd4;
+    /*font-family: 'Source Code Pro', monospace;*/
+}
+
+aside {
+    display: inline-block;
+    width: 50%;
+    height: 150px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 1px rgb(0, 0, 0);
+}
+
+aside > ul {
+    padding-left: 5px;
+    margin: 0;
+    background-image: linear-gradient(70deg, grey, white, grey);
+}
+
+aside > ul > li {
+    display: inline-block;
+    border: 5px solid tomato;
+    border-radius: 48px;
+}
+
+aside > ul > li:nth-child(2) {
+    border: 5px solid orange;
+}
+
+aside > ul > li:nth-child(3) {
+    border: 5px solid green;
+}
+
+h4 {
+    color: #64b164;
+}
+
+h2, h5 {
+    color: #219ebc;
+}
+
+aside > p {
+    display: block;
+    margin: auto;
+    line-height: 150px;
+    text-align: center;
+    width: 50%;
+
+}
+
+section:nth-of-type(1)> article:nth-of-type(1) > aside {
+    color:tomato;
+}
+section:nth-of-type(1)> article:nth-of-type(2) > aside {
+    color: #8ecae6a9;
+}
+section:nth-of-type(2)> article:nth-of-type(1) > aside {
+    color: #dc2f02;
+}
+
+section:nth-of-type(2) > article:nth-of-type(2) > aside {
+    color: #64b164;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section:nth-of-type(2) > article:nth-of-type(3) > aside {
+    color: #fca311;
+    font-family: 'Source Code Pro', monospace;
+}
+section:nth-of-type(2) > article:nth-of-type(4) > aside {
+    color: tomato;
+    font-family: 'Anton', sans-serif;
+}
+section:nth-of-type(2) > article:nth-of-type(5) > aside {
+    color: #8ecae6;
+    font-family: "Egli font";
+}
+
+section:nth-of-type(3) > article:nth-of-type(1) > aside {
+    color: tomato;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+section:nth-of-type(3) > article:nth-of-type(2) > aside {
+    color: #3b697e;
+    font-family: 'Source Code Pro', monospace;
+}
+
+section:nth-of-type(3) > article:nth-of-type(2) > aside > div {
+    background-color: #fca311;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+section:nth-of-type(3) > article:nth-of-type(2) > aside > div > div {
+    background-color: #64b164;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+section:nth-of-type(3) > article:nth-of-type(2) > aside > div > div > div {
+    background-color:tomato;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+section:nth-of-type(3) > article:nth-of-type(2) > aside {
+    font-size: 20px;
+    height: 250px;
+    padding-bottom: 70px;
+}
+
+section:nth-of-type(4) > article:nth-of-type(2) > aside {
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color: tomato;
+}
+
+section:nth-of-type(4) > article:nth-of-type(2) > aside > div > div  {
+    font-size: smaller;
+}
+section:nth-of-type(4) > article:nth-of-type(2) > aside > div > div > div  {
+    font-size: smaller;
+}
+section:nth-of-type(4) > article:nth-of-type(3) > aside > div {
+    font-size: 1.2rem;
+    color: #fca311;
+    text-align: center;
+    
+}
+section:nth-of-type(4) > article:nth-of-type(3) > aside > div > div  {
+    font-size: 1.2rem;
+    
+}
+
+section:nth-of-type(4) > article:nth-of-type(4) > aside > div  {
+    font-size: 120%;
+    color: #64b164;
+}
+
+
+section:nth-of-type(4) > article:nth-of-type(5) > aside {
+    font-size: larger;
+    color: #fca311;
+}
+section:nth-of-type(4) > article:nth-of-type(5) > aside > div > div {
+    font-size: larger;
+    color: #fca311;
+}
+
+section:nth-of-type(4) > article:nth-of-type(5) > aside > div > div > div {
+    font-size: larger;
+    color: #fca311;
+}
+
+section:nth-of-type(4) > article:nth-of-type(6) > aside > div:nth-of-type(1) {
+    font-size: small;
+    color: tomato;
+}
+section:nth-of-type(4) > article:nth-of-type(6) > aside  > div:nth-of-type(2) {
+    font-size: medium;
+    color: tomato;
+}
+section:nth-of-type(4) > article:nth-of-type(6) > aside > div:nth-of-type(3) {
+    font-size: large;
+    color: tomato;
+}
+
+section:nth-of-type(4) > article:nth-of-type(7) > aside  {
+    font-size: large;
+    color: #6ba0b8;
+    padding-bottom: 30px
+}
+
+span {
+    background-color: black;
+}
+
+section:nth-of-type(4) > article:nth-of-type(8) > aside  {
+    width: 50%;
+    margin: auto;
+    color: #64b164;
+    padding-bottom: 30px;
+}
+
+section:nth-of-type(4) > article:nth-of-type(9) > aside  {
+    text-align: center;
+    color: #fca311;
+    padding-bottom: 30px;
+}
+
+section:nth-of-type(4) > article:nth-of-type(10) > aside  {
+    text-align: justify;
+    color: #fca311;
+    padding-bottom: 30px;
+}
+
+section:nth-of-type(5) > article:nth-of-type(1) > aside > div:nth-of-type(1) {
+    font-weight: bold;
+    color: #000000;
+}
+
+section:nth-of-type(5) > article:nth-of-type(1) > aside > div:nth-of-type(2){
+    font-weight: 800;
+    color: #000000;
+    
+}
+section:nth-of-type(5) > article:nth-of-type(1) > aside > div:nth-of-type(3){
+    font-weight: bolder;
+    color: #000000;
+    
+}
+
+section:nth-of-type(5) > article:nth-of-type(1) > aside > div:nth-of-type(4){
+    font-weight: lighter;
+    color: #000000;
+    
+}
+
