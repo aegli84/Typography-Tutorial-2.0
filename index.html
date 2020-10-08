@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,13 +19,16 @@
     <hr>
     <main>
         <section>
-            <h2>Color</h2>
-            <h4>Default value {}</h4>
+            <h2>Text Color</h2>
+            <!--<h4>Default value {}</h4>-->
         <article>
             <div>
-                Defines the color of the text
+                <p>The color property specifies the color of text</p>
+                <p>Example:</p>
+                <li>body {color: red;}</li>
+                <li>h1 {color: #00ff00;}</li>
+                <li>p.ex {color: rgb(0,0,255);}</li>
                 <h5>Syntax</h5>
-
                 color: "color-value"
             </div>
             <aside>
@@ -41,9 +45,10 @@
             <h4>Transparent color {#8ecae6a9}</h4>
         <article>
             <div>
-                Defines the color of the text
+                <p>Applies a transparent color to the text. The text will still take up the space it should</p>
+                <li>body {color: transparent;}</li>
                 <h5>Syntax</h5>
-
+                
                 color: "color-value"
             </div>
             <aside>
@@ -59,10 +64,16 @@
     
         <section>
             <h2>Fonts</h2>
-            <h4>Default value {}</h4>
+            <!--<h4>Default value {}</h4>-->
         <article>
             <div>
-                Sets specific font for the text
+                <p>Sets specific font for the text</p>
+                <p></p>The font property is a shorthand property for:</p>
+                <li>font-style</li>
+                <li>font-variant</li>
+                <li>font-weight</li>
+                <li>font-size/line-height</li>
+                <li>font-family</li>
                 <h5>Syntax</h5>
 
                 font-family: "font (family) name"
@@ -103,7 +114,7 @@
             <article>
                 <div>
                     
-                    <p>External fonts can be used in html via <lin href> by adding it to head section </lin></p>
+                    <p>External fonts can be used in html via <link href> by adding it to head section </lin></p>
                     
                 </div>
                 <aside>
@@ -421,7 +432,20 @@
             
         <article>
             <div>
-                
+                <p>Defines the weight of the text</p>
+                <p>You can use numeric values. They all correspond to a particular named weight:</p>
+                <p>If the font family doesn't provide the requested weight, it will use the closest available one.</p>
+                <li>100 Thin
+                <li>200 Extra Light</li>
+                <li>300 Light</li>
+                <li>400 Normal</li>
+                <li>500 Medium</li>
+                <li>600 Semi Bold</li>
+                <li>700 Bold</li>
+                <li>800 Extra Bold</li>
+                <li>900 Ultra Bold</li>
+                <h5>Syntax</h5>
+                font-weight: "weight";
             </div>
             <aside>
                 <ul>
@@ -448,21 +472,15 @@
                     </div>
             </aside>
         </article>
-                    <ul>
-                        <li>100: Thin, Hairline, Ultra-light, Extra-light</li>
-                        <li>200: Light</li>
-                        <li>300: Book</li>
-                        <li>400: Regular, Normal, Plain, Roman, Standard</li>
-                        <li>500: Medium</li>
-                        <li>600: Semi-bold, Demi-bold</li>
-                        <li>700: Bold</li>
-                        <li>800: Heavy, Black, Extra-bold</li>
-                        <li>900: Ultra-black, Extra-black, Ultra-bold, Heavy-black, Fat, Poster</li>
-                    </ul>
+                    
             <h2>Font-Style</h2>
         <article>
             <div>
-                
+                <p>The font-style property is mostly used to specify italic text.
+                This property has three values:</p>
+                <li>normal - The text is shown normally</li>
+                <li>italic - The text is shown in italics</li>
+                <li>oblique - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
             </div>
             <aside>
                 <ul>
@@ -553,12 +571,13 @@
 
         <!--can be used with div or i-->
                 <div class="fab fa-6x fa-angellist"></div>
-                <br>
-                <div class="fab fa-10x fa-angrycreative"></div>
+                
+                <div class="fab fa-8x fa-angrycreative"></div>
             </aside>
         </article>
             <br> 
             <hr>
+            <br><br>
         <article>
             <div>
                 
@@ -570,8 +589,51 @@
                     <li></li>
                 </ul>
                 <div>I'm a paragraph</div>
+                <br>
             </aside>
         </article>
+        </section>
+        <br><br>
+
+        <section>
+            
+            <article>
+                <h2>Text-Effects</h2>
+                <div>
+                    <p>Neon fonts and glowing text:</p>
+                    <p>Use the text-shadow property to create the neon light effect, and then use animation together with keyframes to add the repeatedly glowing effect:</p>
+                    <p>Import a suitable neon font using @import</p>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div>
+                        Hello World
+                    </div>
+                </aside>
+            </article>
+            
+            <article>
+                <h2>Text-Effects</h2>
+                <div>
+                    <p>Neon fonts and glowing text:</p>
+                    <p>Use the text-shadow property to create the neon light effect, and then use animation together with keyframes to add the repeatedly glowing effect:</p>
+                    <p>Import a suitable neon font using @import</p>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div>
+                        Hello World
+                    </div>
+                </aside>
+            </article>
         </section>
 
     </main>
